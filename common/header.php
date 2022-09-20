@@ -53,21 +53,21 @@
                             <div class="social_links">
                                 <ul class="list-inline">
                                     <li>
-                                        <span>Follow Us</span>
+                                        <span>Follow Me</span>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="https://www.facebook.com/harpreet.ramgarhia.kaur" target="_blank">
                                             <i class="fab fa-facebook-square"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="https://linkedin.com/in/harpreet-jabbal" target="_blank">
                                             <i class="fab fa-linkedin"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            <i class="fab fa-instagram"></i>
+                                        <a href="https://github.com/harpreetdesigner" target="_blank">
+                                            <i class="fab fa-github"></i>
                                         </a>
                                     </li>
                                 </ul>

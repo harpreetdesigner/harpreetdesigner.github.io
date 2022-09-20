@@ -35,27 +35,27 @@
 			.icon_area{
 				margin-right: 15px;
 				i{
-					height: 63px;
-					width: 63px;
-					line-height: 63px;
+					height: 35px;
+					width: 35px;
+					line-height: 35px;
 					text-align: center;
 					color: $primary_color;
 					border: 1px solid $primary_color;
-					font-size: 25px;
+					font-size: 16px;
 					border-radius: 50%;
 					transition: .3s;
 				}
 			}
 			.content_area{
 				h6{
-					font-size: 18px;
+					font-size: 16px;
 					line-height: 26px;
-					margin-bottom: 8px;
+					// margin-bottom: 8px;
+					margin-bottom: 0px;
 					font-weight: 800;
 				}
 				p{
 					font-size: 14px;
-					color: #7ea185;
 				}
 			}
 			&:hover{
@@ -250,6 +250,29 @@
 				}
 			}
 		}
+	}
+
+	.form_section{
+    	.form-group{
+    		margin-bottom: 20px;
+    		input{
+    			height: 45px;
+    			border-radius: 50px;
+    			font-size: 14px;
+    			padding: 12px 20px 10px;
+    		}
+    		textarea{
+    			height: 100px !important;
+    			border-radius: 15px;
+    			font-size: 14px;
+    			padding: 12px 20px 10px;
+    		}
+    	}
+    	button{
+    		span{
+    			vertical-align: middle;
+    		}
+    	}
 	}
 }
 
@@ -602,7 +625,7 @@
 		background-size: 70%;
 		background-position-y: 14%;
 		h1{
-			font-size: 40px;
+			font-size: 36px;
 		}
 		p{
 			font-size: 14px;

@@ -67,7 +67,7 @@ body::selection, body *::selection {
   color: #000000; }
 
 p {
-  color: #b3b3b3; }
+  color: #707070; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #000; }
@@ -296,7 +296,8 @@ h6 {
     z-index: 1;
     top: 0;
     background-position: bottom;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    background-size: cover; }
   .page_title_section h1 {
     color: #ffffff;
     text-align: center;
@@ -418,13 +419,17 @@ h6 {
       background-color: #ffffff;
       border-bottom: 0;
       box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.15); }
+      .header_parent .top_main_header.fixed_header nav .navbar-nav .navbar-brand h3 {
+        color: #000000; }
       .header_parent .top_main_header.fixed_header nav .navbar-nav.left_nav li.nav-item a.nav-link {
         color: #000000; }
         .header_parent .top_main_header.fixed_header nav .navbar-nav.left_nav li.nav-item a.nav-link:hover {
           color: #15cfa4; }
     .header_parent .top_main_header .top_header_logo {
       max-width: 150px;
-      filter: drop-shadow(2px 2px 0px #fff); }
+      filter: drop-shadow(2px 2px 0px #ffffff); }
+    .header_parent .top_main_header .navbar-brand h3 {
+      color: #000000; }
     .header_parent .top_main_header nav {
       padding: 0; }
       .header_parent .top_main_header nav .navbar-toggler {
@@ -478,6 +483,8 @@ h6 {
     .header_parent.header_internal_pages .top_small_header .top_left_area ul li a {
       color: #ffffff;
       text-shadow: none; }
+  .header_parent.header_internal_pages .top_main_header .navbar-brand h3 {
+    color: #ffffff; }
 
 /* Extra Huge large desktops */
 /* Extra Huge large desktops */
@@ -581,7 +588,7 @@ h6 {
         padding-top: 0;
         padding-bottom: 0px; }
         .header_parent .top_small_header .top_right_area .social_links ul li a, .header_parent .top_small_header .top_right_area .social_links ul li span {
-          color: #b3b3b3; }
+          color: #707070; }
     .header_parent .top_small_header .top_left_area {
       text-align: center; }
       .header_parent .top_small_header .top_left_area ul {
@@ -630,7 +637,7 @@ h6 {
         padding-top: 0;
         padding-bottom: 0px; }
         .header_parent .top_small_header .top_right_area .social_links ul li a, .header_parent .top_small_header .top_right_area .social_links ul li span {
-          color: #b3b3b3; }
+          color: #707070; }
     .header_parent .top_small_header .top_left_area {
       text-align: center; }
       .header_parent .top_small_header .top_left_area ul {
@@ -667,23 +674,22 @@ h6 {
     .aboutlist_section .aboutlist_area .aboutlist_item .icon_area {
       margin-right: 15px; }
       .aboutlist_section .aboutlist_area .aboutlist_item .icon_area i {
-        height: 63px;
-        width: 63px;
-        line-height: 63px;
+        height: 35px;
+        width: 35px;
+        line-height: 35px;
         text-align: center;
         color: #15cfa4;
         border: 1px solid #15cfa4;
-        font-size: 25px;
+        font-size: 16px;
         border-radius: 50%;
         transition: .3s; }
     .aboutlist_section .aboutlist_area .aboutlist_item .content_area h6 {
-      font-size: 18px;
+      font-size: 16px;
       line-height: 26px;
-      margin-bottom: 8px;
+      margin-bottom: 0px;
       font-weight: 800; }
     .aboutlist_section .aboutlist_area .aboutlist_item .content_area p {
-      font-size: 14px;
-      color: #7ea185; }
+      font-size: 14px; }
     .aboutlist_section .aboutlist_area .aboutlist_item:hover .icon_area i {
       background-color: #15cfa4;
       border-color: #15cfa4;
@@ -793,7 +799,7 @@ h6 {
     top: 20%;
     z-index: 2;
     font-size: 46px;
-    color: #b3b3b3; }
+    color: #707070; }
     .testimonials_section .testimonials_slider .owl-carousel .owl-nav button.owl-prev {
       left: -40px; }
     .testimonials_section .testimonials_slider .owl-carousel .owl-nav button.owl-next {
@@ -804,6 +810,20 @@ h6 {
       outline: none; }
   .testimonials_section .testimonials_slider .owl-carousel.owl-theme .owl-dots .owl-dot span {
     margin: 5px; }
+  .testimonials_section .form_section .form-group {
+    margin-bottom: 20px; }
+    .testimonials_section .form_section .form-group input {
+      height: 45px;
+      border-radius: 50px;
+      font-size: 14px;
+      padding: 12px 20px 10px; }
+    .testimonials_section .form_section .form-group textarea {
+      height: 100px !important;
+      border-radius: 15px;
+      font-size: 14px;
+      padding: 12px 20px 10px; }
+  .testimonials_section .form_section button span {
+    vertical-align: middle; }
 
 /* Extra Huge large desktops */
 /* Extra Huge large desktops */
@@ -962,7 +982,7 @@ h6 {
     background-size: 70%;
     background-position-y: 14%; }
     .home_banner_section h1 {
-      font-size: 40px; }
+      font-size: 36px; }
     .home_banner_section p {
       font-size: 14px; }
     .home_banner_section h6 {
@@ -1194,6 +1214,55 @@ h6 {
     .faq_area .tab-content .tab-pane .faq_accordians .card .card-body p {
       line-height: 24px; } }
 /* Smaller phones */
+#portfolio_sec nav.nav {
+  justify-content: center; }
+  #portfolio_sec nav.nav a {
+    padding: 8px 15px;
+    background-color: #15cfa4;
+    margin: 0 2px;
+    display: inline-block;
+    border-radius: 7px;
+    font-size: 14px;
+    color: #ffffff; }
+    #portfolio_sec nav.nav a.active {
+      background-color: #ff5f4c;
+      color: #ffffff; }
+#portfolio_sec .portfolio_area .row {
+  gap: 15px; }
+  #portfolio_sec .portfolio_area .row .project {
+    flex: 0 0 32%;
+    position: relative; }
+    #portfolio_sec .portfolio_area .row .project img {
+      object-fit: cover;
+      object-position: top; }
+    #portfolio_sec .portfolio_area .row .project .project-info {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 1;
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.94) 10%, transparent 100%);
+      top: 50%;
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      justify-content: end;
+      padding: 10px 15px 15px; }
+      #portfolio_sec .portfolio_area .row .project .project-info h2 {
+        font-size: 16px;
+        line-height: normal;
+        margin-bottom: 10px;
+        color: #ffffff;
+        font-weight: 700; }
+      #portfolio_sec .portfolio_area .row .project .project-info .project-info-button {
+        background-color: #ff5f4c;
+        color: #ffffff;
+        display: inline-block;
+        padding: 5px 10px;
+        border-radius: 7px;
+        font-size: 14px;
+        font-weight: 600; }
+
 .footer_bottom_section {
   background-color: #000000;
   padding-top: 55px;

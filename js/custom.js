@@ -62,3 +62,32 @@ $(function () {
         $nav.toggleClass('fixed_header', $(this).scrollTop() > 130);
     });
 });
+
+
+
+$(document).ready(function(){
+	$('#portfolio_sec .nav-item').click(function(){
+		// reset active class
+		$('#portfolio_sec .nav-item').removeClass("active");
+		// add active class to selected
+		$(this).addClass("active");
+		// return needed to make function work
+		return false;
+	});
+	
+	
+	$(function() {
+		// create an empty variable
+		var selectedClass = "";
+		// call function when item is clicked
+		$("#portfolio_sec .nav-item").click(function(){
+			// assigns class to selected item
+			selectedClass = $(this).attr("data-rel");
+			// fades out all portfolio items
+			$(".portfolio_area .project").fadeOut(100);
+			// fades in selected category
+			$(".portfolio_area .project." + selectedClass).delay(100).fadeIn(100);
+		});
+	});
+  
+}); // document ready

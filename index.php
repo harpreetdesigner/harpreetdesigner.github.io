@@ -1,6 +1,8 @@
 <?php include('common/header.php'); ?>
 
 <!-- 
+	https://harpreetdesigner.github.io/
+
 	https://www.dejan.works/about/
 	https://mattfarley.ca/
 	http://www.emilyridge.ie/galway-website-services/
@@ -34,40 +36,67 @@
 			</div>
 			<div class="offset-xl-1 col-xl-5 offset-lg-0 col-lg-7 col-md-6 col-sm-12 col-12 align-self-center">
 				<div class="aboutlist_area">
-					<div class="aboutlist_item d-flex">
-						<div class="icon_area">
-							<i class="fas fa-check"></i>
-						</div>
-						<div class="content_area">
-							<h6>Responsive Website Design</h6>
-							<p>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</p>
-						</div>
+					<div class="section_title">
+						<h2>About Me</h2>
 					</div>
-					<div class="aboutlist_item d-flex">
-						<div class="icon_area">
-							<i class="fas fa-check"></i>
-						</div>
-						<div class="content_area">
-							<h6>Mobile App Design</h6>
-							<p>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</p>
-						</div>
+					<div class="cms_section">
+
+						<p>
+							I am UIUX Designer & Frontend Developer. I have 5+ years of experience in Web & Graphics Designing, React JS & React native Designing, Photoshop, Figma and Wordpress, Photoshop to HTML, HTML to Wordpress, Photoshop to Wordpress, Elementor & Page Builders. Making Banners, Mockups, Logos, User Interface of Mobile Apps and Websites are my passion and I love to do. I try to help my clients to get the best result in the term they need, pay attention to all the details in my work. I really enjoy Designing Websites, Logos, Banners, etc.
+						</p>
 					</div>
-					<div class="aboutlist_item d-flex">
-						<div class="icon_area">
-							<i class="fas fa-check"></i>
+					<div class="row">
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+							<div class="aboutlist_item d-flex align-items-center">
+								<div class="icon_area">
+									<i class="fas fa-check"></i>
+								</div>
+								<div class="content_area">
+									<h6>Website Designing</h6>
+								</div>
+							</div>
+							<div class="aboutlist_item d-flex align-items-center">
+								<div class="icon_area">
+									<i class="fas fa-check"></i>
+								</div>
+								<div class="content_area">
+									<h6>Mobile App Designing</h6>
+								</div>
+							</div>
+							<div class="aboutlist_item d-flex align-items-center">
+								<div class="icon_area">
+									<i class="fas fa-check"></i>
+								</div>
+								<div class="content_area">
+									<h6>Website Optimization</h6>
+								</div>
+							</div>
 						</div>
-						<div class="content_area">
-							<h6>Custom WordPress Theme Development</h6>
-							<p>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</p>
-						</div>
-					</div>
-					<div class="aboutlist_item d-flex">
-						<div class="icon_area">
-							<i class="fas fa-check"></i>
-						</div>
-						<div class="content_area">
-							<h6>Banners & Mockups</h6>
-							<p>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</p>
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+							<div class="aboutlist_item d-flex align-items-center">
+								<div class="icon_area">
+									<i class="fas fa-check"></i>
+								</div>
+								<div class="content_area">
+									<h6>Website Development</h6>
+								</div>
+							</div>
+							<div class="aboutlist_item d-flex align-items-center">
+								<div class="icon_area">
+									<i class="fas fa-check"></i>
+								</div>
+								<div class="content_area">
+									<h6>Banners & Mockups</h6>
+								</div>
+							</div>
+							<div class="aboutlist_item d-flex align-items-center">
+								<div class="icon_area">
+									<i class="fas fa-check"></i>
+								</div>
+								<div class="content_area">
+									<h6>Ecommerce Websites</h6>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -76,10 +105,9 @@
 	</div>
 </div>
 
-<div class="advantages_section">
+<!-- <div class="advantages_section">
 	<div class="container-xl">
 		<div class="row">
-			<!-- Technologies -->
 
 			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">
 				<div class="advantage_item">
@@ -124,7 +152,7 @@
 
 		</div>
 	</div>
-</div>
+</div> -->
 
 <div class="process_section">
 	<div class="container-xl">
@@ -134,11 +162,46 @@
 					<h2>What I love to do</h2>
 					<div class="row justify-content-center">
 						<div class="col-xl-6 col-lg-8 col-md-10 col-sm-12 col-12">
-							<p>The world is changing like never before and many aspects of our lives have transformed in ways we had never imagined.</p>
+							<p>Below are my technical skills...</p>
 						</div>
 					</div>
 				</div>
-				<div class="process_area">
+				<div class="row">
+					<div class="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-6 mb-3">
+						<img src="images/skills/html.png" alt="HTML & CSS" class="img-fluid">
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-6 mb-3">
+						<img src="images/skills/bootstrap.png" alt="bootstrap" class="img-fluid">
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-6 mb-3">
+						<img src="images/skills/figma.png" alt="Figma" class="img-fluid">
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-6 mb-3">
+						<img src="images/skills/photoshop.png" alt="Photoshop" class="img-fluid">
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-6 mb-3">
+						<img src="images/skills/react.png" alt="React JS & Native" class="img-fluid">
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-6 mb-3">
+						<img src="images/skills/sass.png" alt="SCSS" class="img-fluid">
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-6 mb-3">
+						<img src="images/skills/wordpress.png" alt="Wordpress" class="img-fluid">
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-6 mb-3">
+						<img src="images/skills/js.png" alt="Javascript" class="img-fluid">
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-6 mb-3">
+						<img src="images/skills/jquery.png" alt="jQuery" class="img-fluid">
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-6 mb-3">
+						<img src="images/skills/expo.png" alt="Expo" class="img-fluid">
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-6 mb-3">
+						<img src="images/skills/sql.png" alt="SQL" class="img-fluid">
+					</div>
+				</div>
+				<!-- <div class="process_area">
 					<div class="row justify-content-center">
 						<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
 							<div class="process_item">
@@ -146,7 +209,7 @@
 									<img src="images/img3.png" alt="..." class="img-fluid d-block mx-auto">
 								</div>
 								<div class="process_info text-center">
-									<h5>Connect with your Expert</h5>
+									<h5>Collaborate</h5>
 									<p>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</p>
 								</div>
 							</div>
@@ -174,7 +237,7 @@
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>
@@ -184,7 +247,7 @@
 	<div class="container-xl">
 		<div class="row">
 			<div class="col-12">
-				<div class="section_title text-center mb-5">
+				<div class="section_title text-center mb-4">
 					<h2>My Recent Work</h2>
 					<div class="row justify-content-center">
 						<div class="col-xl-7 col-lg-8 col-md-10 col-sm-12 col-12">
@@ -193,7 +256,180 @@
 					</div>
 				</div>
 
-				<div class="team_area">
+
+				<main id="portfolio_sec">
+					<nav class="nav mb-4">
+						<a href="#" class="nav-item active" data-rel="project">All</a>
+						<a href="#" class="nav-item" data-rel="websites">Websites</a>
+						<a href="#" class="nav-item" data-rel="mockups">Mockups</a>
+						<a href="#" class="nav-item" data-rel="mobile-apps">Mobile Apps</a>
+						<a href="#" class="nav-item" data-rel="banners">Banners</a>
+						<a href="#" class="nav-item" data-rel="logos">Logos</a>
+					</nav>
+
+					<div class="portfolio_area">
+						<div class="row no-gutters">
+							
+								<div class="project websites mockups">
+									<div class="project-image embed-responsive embed-responsive-1by1">
+										<img src="images/portfolio/dreamhire.jpg" class="img-fluid embed-responsive-item" alt="Dreamhire" />
+									</div>
+									<div class="project-info">
+										<h2 class="project-info-title">Dreamhire</h2>
+										<a class="project-info-button" data-fancybox href="images/portfolio/dreamhire.jpg" target="_blank">View Mockup</a>
+									</div>
+								</div>
+						
+								<div class="project websites">
+									<div class="project-image embed-responsive embed-responsive-1by1">
+										<img src="images/portfolio/oyetoy.png" class="img-fluid embed-responsive-item" alt="Oyetoy" />
+									</div>
+									<div class="project-info">
+										<h2 class="project-info-title">Oyetoy (React JS)</h2>
+										<a class="project-info-button" href="https://oyetoy.com/" target="_blank">View Website</a>
+									</div>
+								</div>
+							
+								<div class="project mockups">
+									<div class="project-image embed-responsive embed-responsive-1by1">
+										<img src="images/portfolio/portknockie.png" class="img-fluid embed-responsive-item" alt="portknockie" />
+									</div>
+									<div class="project-info">
+										<h2 class="project-info-title">Portknockie</h2>
+										<a class="project-info-button" href="https://portknockie.com/" target="_blank">View Website</a>
+									</div>
+								</div>
+
+								<div class="project mockups mobile-apps">
+									<div class="project-image embed-responsive embed-responsive-1by1">
+										<img src="images/portfolio/eirle.png" class="img-fluid embed-responsive-item" alt="Eirle" />
+									</div>
+									<div class="project-info">
+										<h2 class="project-info-title">Eirle (Figma)</h2>
+										<a class="project-info-button" data-fancybox href="images/portfolio/eirle.png" target="_blank">View Design</a>
+									</div>
+								</div>
+
+								<div class="project mockups mobile-apps">
+									<div class="project-image embed-responsive embed-responsive-1by1">
+										<img src="images/portfolio/toucan.png" class="img-fluid embed-responsive-item" alt="Toucan" />
+									</div>
+									<div class="project-info">
+										<h2 class="project-info-title">Toucan (React - Expo)</h2>
+										<a class="project-info-button" data-fancybox href="images/portfolio/toucan.png" target="_blank">View Design</a>
+									</div>
+								</div>
+							
+								<div class="project websites mockups">
+									<div class="project-image embed-responsive embed-responsive-1by1">
+										<img src="images/portfolio/ataya.jpg" class="img-fluid embed-responsive-item" alt="Ayata Mills" />
+									</div>
+									<div class="project-info">
+										<h2 class="project-info-title">Ataya Mills</h2>
+										<a class="project-info-button" href="https://www.alkhaleejgrandmills.com/" target="_blank">View Website</a>
+									</div>
+								</div>
+							
+								<div class="project mockups">
+									<div class="project-image embed-responsive embed-responsive-1by1">
+										<img src="images/portfolio/accessnation.jpg" class="img-fluid embed-responsive-item" alt="Access Nation" />
+									</div>
+									<div class="project-info">
+										<h2 class="project-info-title">Access Nation</h2>
+										<a class="project-info-button" data-fancybox href="images/portfolio/accessnation.jpg" target="_blank">View Mockup</a>
+									</div>
+								</div>
+							
+								<div class="project websites mockups">
+									<div class="project-image embed-responsive embed-responsive-1by1">
+										<img src="images/portfolio/jaggumithai.jpg" class="img-fluid embed-responsive-item" alt="Jaggu Mithai" />
+									</div>
+									<div class="project-info">
+										<h2 class="project-info-title">Jaggu Mithai</h2>
+										<a class="project-info-button" href="http://jaggumithai.com/" target="_blank">View Website</a>
+									</div>
+								</div>
+
+								<div class="project websites mockups">
+									<div class="project-image embed-responsive embed-responsive-1by1">
+										<img src="images/portfolio/misco.jpg" class="img-fluid embed-responsive-item" alt="Misco" />
+									</div>
+									<div class="project-info">
+										<h2 class="project-info-title">Misco Oman</h2>
+										<a class="project-info-button" href="https://www.miscooman.com/" target="_blank">View Website</a>
+									</div>
+								</div>
+
+								<div class="project websites mockups">
+									<div class="project-image embed-responsive embed-responsive-1by1">
+										<img src="images/portfolio/neurosurgeon.jpg" class="img-fluid embed-responsive-item" alt="Neurosurgeon" />
+									</div>
+									<div class="project-info">
+										<h2 class="project-info-title">Neurosurgeon</h2>
+										<a class="project-info-button" data-fancybox href="images/portfolio/neurosurgeon.jpg" target="_blank">View Mockup</a>
+									</div>
+								</div>
+
+								<div class="project mockups">
+									<div class="project-image embed-responsive embed-responsive-1by1">
+										<img src="images/portfolio/oman.jpg" class="img-fluid embed-responsive-item" alt="Oman" />
+									</div>
+									<div class="project-info">
+										<h2 class="project-info-title">Made in Oman</h2>
+										<a class="project-info-button" data-fancybox href="images/portfolio/oman.jpg" target="_blank">View Mockup</a>
+									</div>
+								</div>
+								<div class="project banners">
+									<div class="project-image embed-responsive embed-responsive-1by1">
+										<img src="images/portfolio/banner1.png" class="img-fluid embed-responsive-item" alt="Physician" />
+									</div>
+									<div class="project-info">
+										<h2 class="project-info-title">Banner</h2>
+										<a class="project-info-button" data-fancybox href="images/portfolio/banner1.png" target="_blank">View Banner</a>
+									</div>
+								</div>
+								<div class="project banners">
+									<div class="project-image embed-responsive embed-responsive-1by1">
+										<img src="images/portfolio/banner2.png" class="img-fluid embed-responsive-item" alt="Physician" />
+									</div>
+									<div class="project-info">
+										<h2 class="project-info-title">Banner</h2>
+										<a class="project-info-button" data-fancybox href="images/portfolio/banner2.png" target="_blank">View Banner</a>
+									</div>
+								</div>
+								<div class="project banners">
+									<div class="project-image embed-responsive embed-responsive-1by1">
+										<img src="images/portfolio/banner3.jpg" class="img-fluid embed-responsive-item" alt="Cover" />
+									</div>
+									<div class="project-info">
+										<h2 class="project-info-title">Cover Banner</h2>
+										<a class="project-info-button" data-fancybox href="images/portfolio/banner3.jpg" target="_blank">View Banner</a>
+									</div>
+								</div>
+								<div class="project banners">
+									<div class="project-image embed-responsive embed-responsive-1by1">
+										<img src="images/portfolio/banner5.jpg" class="img-fluid embed-responsive-item" alt="Banner" />
+									</div>
+									<div class="project-info">
+										<h2 class="project-info-title">Suez Banner</h2>
+										<a class="project-info-button" data-fancybox href="images/portfolio/banner5.jpg" target="_blank">View Banner</a>
+									</div>
+								</div>
+								<div class="project banners">
+									<div class="project-image embed-responsive embed-responsive-1by1">
+										<img src="images/portfolio/banner4.png" class="img-fluid embed-responsive-item" alt="Cover" />
+									</div>
+									<div class="project-info">
+										<h2 class="project-info-title">LSDMS Cover Banner</h2>
+										<a class="project-info-button" data-fancybox href="images/portfolio/banner4.png" target="_blank">View Banner</a>
+									</div>
+								</div>
+						</div>
+					</div>
+				</main>
+
+
+				<!-- <div class="team_area">
 					<div class="row justify-content-center">
 						<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
 							<div class="team_item">
@@ -232,7 +468,7 @@
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>
@@ -242,7 +478,7 @@
 	<div class="container-xl">
 		<div class="row">
 			<div class="col-12">
-				
+
 				<div class="section_title text-center mb-5">
 					<h2>Say Hello!</h2>
 					<div class="row justify-content-center">
@@ -252,7 +488,31 @@
 					</div>
 				</div>
 
-				<div class="testimonials_slider">
+				<div class="row justify-content-center">
+					<div class="col-xl-8 col-lg-8 col-md-10 col-sm-10 col-12">
+						<div class="form_section">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Full Name">
+							</div>
+							<div class="form-group">
+								<input type="email" class="form-control" placeholder="Email">
+							</div>
+							<div class="form-group">
+								<input type="tel" class="form-control" placeholder="Mobile Number">
+							</div>
+							<div class="form-group">
+								<textarea name="" cols="4" rows="4" class="form-control" placeholder="Your Message"></textarea>
+							</div>
+							<div class="primary_btn text-center">
+								<button class="btn">
+									<span>SEND</span> <i class="far fa-paper-plane ml-2"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- <div class="testimonials_slider">
 					<div class="row justify-content-center">
 						<div class="col-xl-11 col-lg-12 col-md-12 col-sm-12 col-12">
 							
@@ -313,7 +573,7 @@
 
 						</div>
 					</div>
-				</div>
+				</div> -->
 
 			</div>
 		</div>
