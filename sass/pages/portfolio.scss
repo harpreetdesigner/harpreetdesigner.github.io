@@ -1,31 +1,31 @@
-#portfolio_sec{
-    nav.nav{
+#portfolio_sec {
+    nav.nav {
         justify-content: center;
-        a{
+        a {
             padding: 8px 15px;
             background-color: $primary_color;
-            margin: 0 2px;
+            margin: 2px 2px;
             display: inline-block;
             border-radius: 7px;
             font-size: 14px;
             color: $white;
-            &.active{
+            &.active {
                 background-color: $secondary_color;
-                color: $white
+                color: $white;
             }
         }
     }
-    .portfolio_area{
-        .row{
+    .portfolio_area {
+        .row {
             gap: 15px;
-            .project{
+            .project {
                 flex: 0 0 32%;
                 position: relative;
-                img{
+                img {
                     object-fit: cover;
                     object-position: top;
                 }
-                .project-info{
+                .project-info {
                     position: absolute;
                     bottom: 0;
                     left: 0;
@@ -38,14 +38,14 @@
                     flex-direction: column;
                     justify-content: end;
                     padding: 10px 15px 15px;
-                    h2{
+                    h2 {
                         font-size: 16px;
                         line-height: normal;
                         margin-bottom: 10px;
                         color: $white;
                         font-weight: 700;
                     }
-                    .project-info-button{
+                    .project-info-button {
                         background-color: $secondary_color;
                         color: $white;
                         display: inline-block;
@@ -53,6 +53,64 @@
                         border-radius: 7px;
                         font-size: 14px;
                         font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    #portfolio_sec {
+        .portfolio_area {
+            .row {
+                .project {
+                    flex: 0 0 31.9%;
+                    position: relative;
+                    .project-info {
+                        .project-info-button {
+                            padding: 5px 7px;
+                            border-radius: 4px;
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 768px) and (min-width: 576px) {
+    #portfolio_sec {
+        .portfolio_area {
+            .row {
+                .project {
+                    flex: 0 0 48%;
+                    position: relative;
+                    .project-info {
+                        .project-info-button {
+                            padding: 5px 7px;
+                            border-radius: 4px;
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 575px) {
+    #portfolio_sec {
+        .portfolio_area {
+            .row {
+                .project {
+                    flex: 0 0 100%;
+                    position: relative;
+                    .project-info {
+                        .project-info-button {
+                            padding: 5px 7px;
+                            border-radius: 4px;
+                            font-size: 12px;
+                        }
                     }
                 }
             }

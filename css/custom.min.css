@@ -1219,7 +1219,7 @@ h6 {
   #portfolio_sec nav.nav a {
     padding: 8px 15px;
     background-color: #15cfa4;
-    margin: 0 2px;
+    margin: 2px 2px;
     display: inline-block;
     border-radius: 7px;
     font-size: 14px;
@@ -1263,6 +1263,30 @@ h6 {
         font-size: 14px;
         font-weight: 600; }
 
+@media (max-width: 991px) and (min-width: 768px) {
+  #portfolio_sec .portfolio_area .row .project {
+    flex: 0 0 31.9%;
+    position: relative; }
+    #portfolio_sec .portfolio_area .row .project .project-info .project-info-button {
+      padding: 5px 7px;
+      border-radius: 4px;
+      font-size: 12px; } }
+@media (max-width: 768px) and (min-width: 576px) {
+  #portfolio_sec .portfolio_area .row .project {
+    flex: 0 0 48%;
+    position: relative; }
+    #portfolio_sec .portfolio_area .row .project .project-info .project-info-button {
+      padding: 5px 7px;
+      border-radius: 4px;
+      font-size: 12px; } }
+@media (max-width: 575px) {
+  #portfolio_sec .portfolio_area .row .project {
+    flex: 0 0 100%;
+    position: relative; }
+    #portfolio_sec .portfolio_area .row .project .project-info .project-info-button {
+      padding: 5px 7px;
+      border-radius: 4px;
+      font-size: 12px; } }
 .footer_bottom_section {
   background-color: #000000;
   padding-top: 55px;

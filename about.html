@@ -39,7 +39,7 @@
                         <div class="top_left_area">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="mailto: harpreetjabbal48@gmail.com">harpreetjabbal48@gmail.com</a>
+                                    <a href="mailto: harpreetwork4u@gmail.com">harpreetwork4u@gmail.com</a>
                                 </li>
                                 <!-- <li><span>|</span></li>
                                 <li>

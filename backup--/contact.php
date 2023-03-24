@@ -25,7 +25,7 @@
 								<div class="contact_desc">
 									<h5>E-mail Address</h5>
 									<p>
-										harpreetjabbal48@gmail.com
+										harpreetwork4u@gmail.com
 									</p>
 								</div>
 							</div>
